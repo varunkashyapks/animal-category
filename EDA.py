@@ -35,3 +35,4 @@ for idx, img in enumerate(imgs):
     im = Image.open("../input/train_images/" + img)
     plt.imshow(im)
     ax.set_title(f'Label: {labels[idx]}')
+####
